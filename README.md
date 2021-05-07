@@ -28,5 +28,5 @@ UGhost работает в веб среде, такой подход делае
 
 Работа выполнялась для выступления на научно-практической конференции в МГТУ им. Баумана на программу "Шаг в будущее" и получила 63 балла из 70.
 
-[Скачать полный отчёт/Download full report](https://github.com/Andrey-Nedov-is-a-human/UGhost-Framework/tree/main/docs/UGhost_report.pdf)
-<br/>[Скачать UGhost API/Download UGhost API](https://github.com/Andrey-Nedov-is-a-human/UGhost-Framework/tree/main/docs/UGhost_API.pdf)
+[Скачать полный отчёт/Download full report](https://github.com/Andrey-Nedov-is-a-human/UGhost-Framework/tree/main/docs/UGhost-report.pdf)
+<br/>[Скачать UGhost API/Download UGhost API](https://github.com/Andrey-Nedov-is-a-human/UGhost-Framework/tree/main/docs/UGhost-API.pdf)
