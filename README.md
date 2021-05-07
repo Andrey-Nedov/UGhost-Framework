@@ -1,4 +1,4 @@
-# Фреймворк для создания ботов с голосовым двусторонним интерфейсом <br/><br/>  Framework for building bots with a two-way voice interface
+# Фреймворк для создания ботов с голосовым двусторонним интерфейсом / Framework for building bots with a two-way voice interface
 <img src="/imgs/im1.png" width="600"/>
 
 *01.01.2016 - 30.07.2017*  [![Generic badge](https://img.shields.io/badge/Status-Closed-red.svg)](https://shields.io/)<br/>
