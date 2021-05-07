@@ -1,0 +1,42 @@
+<script src='https://code.responsivevoice.org/responsivevoice.js'></script>
+
+<html>
+
+	<head>
+		<meta charset="utf-8">
+		<title>TUIRNG BASE</title>
+	</head>
+
+	<body>
+
+      <input type="text" id="in"/>
+
+      <button onclick="go()">PLAY</button>
+      
+      <br>
+      Высота голоса: 1<input type="range" id="vys" min="0.1" max="2" step="0.1" value="1.1">20
+      <br>
+      Скорость: 1<input type="range" id="sk" min="0.1" max="1.5" step="0.1" value="0.8">15
+      <br>
+      Громкость: 0<input type="range" id="vol" min="0" max="1" step="0.1" value="0.5">10
+
+	</body>
+
+</html>
+
+<script>
+
+    function go(){
+      var text = document.getElementById('in')
+      var vys = document.getElementById('vys')
+      var sk = document.getElementById('sk')
+      var vol = document.getElementById('vol')
+        responsiveVoice.speak(text.value, "Russian Female", {rate:sk.value, volume:vol.value, pitch:vys.value, onend:sil});
+    }
+    
+    function sil() {
+    alert("Voice ended");
+    }
+
+
+</script>

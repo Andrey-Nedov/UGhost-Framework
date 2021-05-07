@@ -1,0 +1,4 @@
+"C:\Program Files (x86)\Google\Chrome\Application\chrome.exe" --allow-file-access-from-files C:\Users\GoodInI\Desktop\index.html
+file:///C:/Users/GoodInI/Desktop/index.html
+http://stackoverflow.com/questions/14318319/webrtc-browser-doesnt-ask-for-mic-access-permission-for-local-html-file?lq=1
+"C:\Program Files (x86)\Google\Chrome\Application\chrome.exe" --allow-file-access-from-files C:\Users\GoodInI\Desktop\Проекты\Проект_IVA_\Платформа\HTML\hear_me.html

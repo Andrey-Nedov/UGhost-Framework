@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>I can learn</title>
+</head>
+<body>
+	<input type="text" id="in"/><br>
+	<button onclick="go()">ОК</button>
+	<div id="answers"></div><br>
+
+</body>
+</html>
+
+<style>
+	
+</style>
+
+<script>
+
+var yousay = new Array(10000)
+var isay = new Array(10000)
+var count=1
+var chik=false
+var i
+var num=0
+
+	for(i=1; i==10000; i++){
+		yousay[i]=0
+		isay[i]=0
+	}
+
+	function go() {
+	var a = document.getElementById('in')
+
+	sp('user:'+a.value)
+
+	setTimeout(function(){
+
+		if(chik==false){
+			for(i=1; i<10000; i++){
+				if(yousay[i]==a.value){num=i}
+			}
+
+			if(num==0){
+				sp('bot:Что мне нужно ответить?');
+				chik=true
+				yousay[count]=a.value
+			}else{
+				sp('bot:'+isay[num])
+				num=0
+			}
+		}
+
+		else
+
+		{
+			isay[count]=a.value
+			sp('bot:Запомнила')
+			chik=false
+			count++
+		}
+
+	},1000)
+
+	function sp(inp){
+		var span = document.createElement('span');
+	    span.appendChild(document.createTextNode(inp));
+
+	    var br = document.createElement('br');
+
+	    document.getElementById('answers').appendChild(br);
+	    var list = document.getElementById("answers");
+    	list.insertBefore(br, list.childNodes[0]);
+
+	    document.getElementById('answers').appendChild(span);
+	    var list = document.getElementById("answers");
+    	list.insertBefore(span, list.childNodes[0]);
+	}
+
+}
+</script>

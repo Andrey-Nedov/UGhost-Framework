@@ -1,0 +1,35 @@
+<html>
+<body>
+<button onclick="start()">START</button>
+<button onclick="stop()">STOP</button>
+<body>
+</html>
+<script>
+
+var identificated
+
+var recognition = new webkitSpeechRecognition();
+recognition.interimResults = true;
+recognition.continuous = false;
+recognition.onresult = function(event) { 
+
+   for (var i = event.resultIndex; i < event.results.length; ++i) { 
+       identificated = event.results[i][0].transcript;
+       if (event.results[i].isFinal) {
+             console.log("Final sentence is : " + identificated ); 
+             stop();
+       }else{
+       }
+}
+}
+
+function start(){recognition.start();}
+
+function stop(){
+	setTimeout(function(){
+		recognition.stop();
+	 	alert(identificated);
+	},1500)
+}
+
+</script>
