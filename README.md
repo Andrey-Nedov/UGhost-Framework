@@ -1,4 +1,4 @@
-# Web-фреймворк для создания ботов с голосовым двусторонним интерфейсом <br/><br/>  Web framework for building bots with a two-way voice interface
+# Фреймворк для создания ботов с голосовым двусторонним интерфейсом <br/><br/>  Framework for building bots with a two-way voice interface
 <img src="/imgs/im1.png" width="600"/>
 
 *01.01.2016 - 30.07.2017*  [![Generic badge](https://img.shields.io/badge/Status-Closed-red.svg)](https://shields.io/)<br/>
@@ -17,9 +17,9 @@
 <img src="/imgs/im3.png" width="600"/>
 <img src="/imgs/im5.png" width="600"/>
 
-## Результат
+## Результат 
 
-UGhost работает в веб среде, такой подход делает его **кроссплатформенным**. Фреймфорк может быть развернут и в **сетевых приложениях**, и на **локальной машине**, и, при помощи фреймворка Cordova, на **мобильных устройствах**.
+UGhost выполняется на базе Google WebView, такой подход делает его **кроссплатформенным**. Фреймфорк может быть развернут и в **сетевых приложениях**, и на **локальной машине**, и, при помощи фреймворка Cordova, на **мобильных устройствах**.
 
 <p>
 <img src="/imgs/im4.png" width="500"/>
@@ -28,5 +28,5 @@ UGhost работает в веб среде, такой подход делае
 
 Работа выполнялась для выступления на научно-практической конференции в МГТУ им. Баумана на программу "Шаг в будущее" и получила 63 балла из 70.
 
-[Скачать полный отчёт/Download full report](https://github.com/Andrey-Nedov-is-a-human/UGhost-Framework/tree/main/docs/UGhost_report.pdf)
-<br/>[Скачать UGhost API/Download UGhost API](https://github.com/Andrey-Nedov-is-a-human/UGhost-Framework/tree/main/docs/UGhost_API.pdf)
+[Скачать полный отчёт/Download full report](https://github.com/Andrey-Nedov-is-a-human/UGhost-Framework/tree/main/docs/UGhost-report.pdf)
+<br/>[Скачать UGhost API/Download UGhost API](https://github.com/Andrey-Nedov-is-a-human/UGhost-Framework/tree/main/docs/UGhost-API.pdf)
