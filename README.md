@@ -4,7 +4,7 @@
 *01.01.2016 - 30.07.2017*  [![Generic badge](https://img.shields.io/badge/Status-Closed-red.svg)](https://shields.io/)<br/>
 
 *Разработчик/Developer*
-1. [Андрей Недов](https://github.com/Andrey-Nedov-is-a-human) (16 y.o.)
+1. [Андрей Недов](https://github.com/Andrey-Nedov-is-a-human) (17 y.o.)
 
 ## Цель проекта
 
